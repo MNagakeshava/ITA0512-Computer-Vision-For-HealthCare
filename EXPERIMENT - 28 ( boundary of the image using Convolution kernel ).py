@@ -10,7 +10,8 @@ edges[edges < thresh] = 0
 edges[edges >= thresh] = 255
 cv2.imshow("Edges", edges)
 cv2.waitKey(0)
-cv2.destroyAllWindows()
+cv2.destroyAllWindows()
+
 
 
 import cv2
