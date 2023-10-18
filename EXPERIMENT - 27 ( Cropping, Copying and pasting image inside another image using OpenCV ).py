@@ -16,7 +16,8 @@ img_arr = np.hstack((image, img2))
 cv2.imshow('Input Images',img_arr)
 cv2.imshow('Blended Image',dst)
 cv2.waitKey(0)
-cv2.destroyAllWindows()
+cv2.destroyAllWindows()
+
 
 import cv2
 image_path ="msd1.jpg"
